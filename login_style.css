@@ -1,0 +1,26 @@
+body
+{
+	background-image: url("images/bg-desktop.svg");
+	background-color:hsl(257, 40%, 49%);
+	background-repeat:no-repeat;
+	/* background-height:100vh; */
+	font-family: 'Open Sans', sans-serif;
+}
+
+.registertwo
+{
+    width:20vw;
+    margin:auto;
+    margin-top:10rem;
+}
+
+input{
+    width:200px;
+    height:2rem;
+    border-radius:15px;
+}
+
+.btn-login{
+    height:2rem;
+    width:200px;
+}

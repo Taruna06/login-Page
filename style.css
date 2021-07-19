@@ -1,0 +1,157 @@
+body
+{
+	background-image: url("images/bg-desktop.svg");
+	background-color:hsl(257, 40%, 49%);
+	background-repeat:no-repeat;
+	/* background-height:100vh; */
+	font-family: 'Open Sans', sans-serif;
+}
+.logo
+{
+	float:left;
+	position:absolute;
+	margin-top:3%;
+	margin-left:5%;
+	width:200px;
+}
+.illustration
+{
+	width:50%;
+	margin:10%;
+	margin-left:5%;
+	margin-right:0;
+}
+.text
+{
+	float:right;
+	width:35%;
+	margin:10%;
+	margin-left:0;
+	margin-right:7%;
+	margin-top:15%;
+	color:white;
+}
+.build
+{
+	font-size:30px;
+	font-weight:600;
+	letter-spacing:2px;
+	line-height:1.6;
+}
+.huddle
+{
+	margin-top:1.5rem;
+	font-weight:400;
+}
+.register
+{
+	color:hsl(257, 40%, 49%);
+	width:150px;
+	background-color:white;
+	margin-top:5%;
+	padding:3%;
+	border-radius:40px;
+	text-align:center;
+	font-weight:600;
+}
+.small
+{
+	float:right;
+	margin-top:10%;
+}
+.fa
+{
+	font-size:20px!important;
+	padding:.5rem;
+	border:2px solid;
+	border-radius:30px;
+}
+
+.fa-facebook
+{
+	padding-left:0.8rem;
+	padding-right:0.8rem;
+}
+.fa-instagram
+{
+	padding-left:0.7rem;
+	padding-right:0.7rem;
+}
+ .fa
+{
+	transition-property: color;
+}
+.register
+{
+	transition-property:background-color,color;
+}
+.register_page{
+	margin:auto;
+	width:50%;
+	margin-left:50%;
+}
+.btn-login{
+    height:2rem;
+    width:200px;
+}
+.fa:hover {
+  color:hsl(300, 69%, 71%);
+}
+.register:hover {
+  background-color:hsl(300, 69%, 71%);
+  color:white;
+}
+@media (max-width: 575px) {
+	body
+{
+	background-image: url("images/bg-mobile.svg");
+}
+	.logo
+	{
+		width:150px;
+	}
+	.illustration
+	{
+		margin-top:25%;
+		margin-right:0;
+		margin-left:13%;
+		width:80%;
+		float:none;
+	}
+	.text
+	{
+		width:80%;
+	}
+	.build
+	{
+		font-size:20px;
+	}
+	.huddle,.build
+	{
+		text-align:center;
+	}
+	.register,.small
+	{
+		margin:auto;
+		margin-top:7%;
+	}
+	.fa
+	{	
+	font-size:13px!important;
+	padding:.4rem;
+	border:1px solid;
+	border-radius:30px;
+	margin:.2rem;
+	}
+	.fa-facebook
+	{
+	padding-left:0.5rem;
+	padding-right:0.5rem;
+}
+.fa-instagram
+{
+	padding-left:0.4rem;
+	padding-right:0.4rem;
+}
+
+}
